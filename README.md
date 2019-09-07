@@ -16,8 +16,17 @@ Dynamic programming can be applied iteratively or recursively. The iteratively v
 
 ## Fibonacci
 Description: Calculate the Fibonacci value recursively with the simplest and easiest method ( O(2^n) time complexity), then calculate the dynamic programming method but with recursion ( O(n) time complexity). Then calculate it with a dynamic programming method ( O(n) linear time and linear space),then calculate it with dynamic programming method in constant space ( O(n) linear time and O(1) constant space). <br> 
- [fibonacci.cpp](./fibonacci.cpp) <br>
+[fibonacci.cpp](./fibonacci.cpp) <br>
 ![Fibonacci output](./fibonacci_output.png?raw=true "Fibonacci output") <br>
+
+## Minimum path sum
+Description: In this problem we calculate the minimum path sum (2D path). <br>
+Problem: Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down.<br>
+First we give a simple and easy recursive algorithm, then we give a dynamic programming algorithm.<br>
+First version - Calculate the minimum 2D path sum value recursively in the easiest way, but greatest time complexity because it will try every combination of paths.<br>
+Second version - Calculate the minimum 2D path sum value iteratively using dynamic programming. Construct an 2D vector of sums the min of the upper and te left plus the current value of the map_2d path.<br>
+[minimum_path_sum.cpp](./minimum_path_sum.cpp) <br>
+![Minimum path sum](./minimum_path_sum_output.png?raw=true "Minimum path sum") <br>
 
 ## Soon there will be more implementation examples
 TODO
