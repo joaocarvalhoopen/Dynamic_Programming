@@ -73,7 +73,8 @@ int calc_fib_dp_iter(int n){
 }
 
 // Calculate Fibonacci value interactively using dynamic programming (linear
-// time and constant space).
+// time and constant space). It will store only the last two values in
+// the sequence.
 int calc_fib_dp_iter_const_space(int n){
     int n_minus_2 = 0;
     int n_minus_1 = 1;
