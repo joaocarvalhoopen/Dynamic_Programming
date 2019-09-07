@@ -19,6 +19,17 @@ Description: Calculate the Fibonacci value recursively with the simplest and eas
 [fibonacci.cpp](./fibonacci.cpp) <br>
 ![Fibonacci output](./fibonacci_output.png?raw=true "Fibonacci output") <br>
 
+## Stairs  - Count ways to reach the s th stair with 1 step or 2 steps
+Problem: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? <br>
+Solution: Equal to the Fibonacci solution but have to add the following function after the fibonacci value calculation. <br>
+```
+// The number of ways to reach s th stair 
+int countWays(int s) 
+{ 
+    return fib(s + 1); 
+} 
+```
+
 ## Minimum path sum
 Description: In this problem we calculate the minimum path sum (2D path). <br>
 Problem: Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down.<br>
