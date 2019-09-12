@@ -9,6 +9,7 @@ Dynamic programming can be applied iteratively or recursively. The iteratively v
 ## Reference links to see
 * [Video Dynamic Programming lecture #1 - Fibonacci, iteration vs recursion - Errichto](https://www.youtube.com/watch?v=YBSt1jYwVfU)
 * [Video Dynamic Programming lecture #2 - Coin change, double counting - Errichto](https://www.youtube.com/watch?v=1mtvm2ubHCY)
+* [Video Dynamic Programming lecture #3 - Line of wines - Errichto](https://www.youtube.com/watch?v=pwpOC1dph6U)
 * [Video Dynamic Programming - AtCoder educational dp contest - Errichto](https://www.youtube.com/watch?v=FAQxdm0bTaw)
 * [Educational DP Contest](https://atcoder.jp/contests/dp)
 * [Github Errichto DP AtCode Contest](https://github.com/Errichto/youtube/tree/master/atcoder-dp)
