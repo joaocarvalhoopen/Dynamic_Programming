@@ -40,6 +40,18 @@ Second version - Calculate the minimum 2D path sum value iteratively using dynam
 [minimum_path_sum.cpp](./minimum_path_sum.cpp) <br>
 ![Minimum path sum](./minimum_path_sum_output.png?raw=true "Minimum path sum") <br>
 
+## Dynamic Time Warping Algorithm
+This is a implementation of the Dynamic Time Warping algorithm implemented using dynamic programming. It makes possible to calculate the distance between two time series A and B of floating point numbers (doubles). <br>
+The time complexity is O(NM) and space complexity is O(NM), where N is the length on time series A and M is the length of time series B.<br> 
+[dynamic_time_warping.cpp](./dynamic_time_warping.cpp) <br>
+References:<br>
+[How DTW (Dynamic Time Warping) algorithm works](https://www.youtube.com/watch?v=_K1OsqCicBY) <br>
+[Wikipedia Dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) <br>
+[Recognizing digits using dynamic time warping](http://tphinkle.github.io/MNIST-Digit-Recognizer/) <br>
+[LB_Keogh makes retrieval of time-warped time series feasible even for large data sets](http://www.cs.ucr.edu/~eamonn/LB_Keogh.htm) <br>
+[Paper Dynamic Programming Algorithm Optimization for Spoken Word Recognition](https://www.irit.fr/~Julien.Pinquier/Docs/TP_MABS/res/dtw-sakoe-chiba78.pdf) <br>
+[Normalized measure of similarity from two time series, from dynamic time warping](https://cs.stackexchange.com/questions/53250/normalized-measure-from-dynamic-time-warping) <br>
+
 ## Soon there will be more implementation examples
 TODO
 
